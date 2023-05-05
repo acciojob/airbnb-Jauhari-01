@@ -45,8 +45,4 @@ public class HotelManagementService {
 
         return hotelManagementRepository.updateFacilities(newFacilities, hotelName);
     }
-
-    public String addHotal(Hotel hotel) {
-        return null;
-    }
 }
